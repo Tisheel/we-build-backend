@@ -1,0 +1,4 @@
+module.exports = {
+    REQ_CHANNEL: 'REQ_PROFESSOR',
+    RPLY_CHANNEL: 'RPLY_PROFESSOR'
+}

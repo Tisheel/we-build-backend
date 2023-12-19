@@ -1,0 +1,15 @@
+{
+  "name": "we-builddd-backend",
+  "version": "1.0.0",
+  "description": "College test portal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"cd professor && npm run dev\" \"cd question-bank && npm run dev\" \"cd student && npm run dev\" \"cd subject && npm run dev\" \"cd test && npm run dev\""
+  },
+  "author": "Tisheel",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
